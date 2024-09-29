@@ -16,6 +16,12 @@ dependencies = [
     "requests>=2.0",
 ]
 
+[tool.poetry]
+name = "pydexcom"
+version = "0.1.0"  # or use dynamic versioning
+description = "Your package description"
+authors = ["Your Name <you@example.com>"]
+
 [tool.hatch.version]
 source = "vcs"
 
