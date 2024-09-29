@@ -116,6 +116,10 @@ class GlucoseReading:
         """Glucose reading recorded time as datetime."""
         return self._datetime
 
+    @datetime.setter
+    def datetime(self, value):
+        self._datetime = value
+
     @property
     def json(self) -> dict[str, Any]:
         """JSON glucose reading from Dexcom Share API."""
