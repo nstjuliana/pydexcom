@@ -4,6 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "pydexcom"
+version = "1.0"
 authors = [
     {name = "Gage Benne"},
 ]
